@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content="the wild cats amazing quiz to help students with non-STEM subjects" /> <!--description for SEO  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="stylesheet2.css" /> 
+    <script defer src="index.js"></script>
+    <title>The Wild Cats Quiz!</title>
+</head>
+
+<body>
+
+    <nav>
+        <section> <!--section for menu at top left hand corner of screen  -->
+            <menu id="settings"> <!--lmenu element used for readability in creating settings option top left corner of screen --> 
+                <!--<li>--> <!--list items for settings --> 
+                <!--</li>--> <!-- commented out for formatting --> 
+            </menu>
+        </section>
+        <section> <!--section for navigating through questions  --> 
+            <menu> <!--menu for navigating through questions -->   
+                <!--<li> --> <!--list items for clicking through questions -->                   
+                <!--</li> --> <!-- commented out for formatting --> 
+            </menu>
+        </section>
+        <section> <!--section for timer -->
+            <time> <!--time element to hold timer -->
+            </time>
+        </section>
+    </nav>
+
+    <section id="image_section"> <!-- section to hold image -->
+        <div id="image_wrap"> <!-- div to wrap image -->
+            <img id="image" alt="history picture"> <!-- might need to add src here -->
+            </img>
+        </div>    
+    </section> 
+
+<!-- bootstrap styling + quiz elements below -->
+    <div class="container mt-sm-5 my-1">
+        <div id="quiz"></div>
+        <button id="submit">Get Results</button>
+        <div id="results"></div>
+    </div>
+<!-- bootstrap styling + quiz elements above -->
+</body>
+</html>
